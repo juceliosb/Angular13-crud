@@ -17,7 +17,7 @@ export class ProductCreateComponent implements OnInit {
   }
 
   createProduct(): void{
-    this.productService.showMessage('Produto criado!')
+    this.productService.showMessage('Banco Cadastrado!')
   }
   
   cancel(): void{
