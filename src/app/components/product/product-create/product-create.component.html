@@ -2,10 +2,12 @@
     <mat-card-title>Cadastro de Banco</mat-card-title>
     <form>
         <mat-form-field>
-            <input matInput placeholder="Código">
+            <input matInput placeholder="Código" 
+            [(ngModel)]="product.codigo" name="codigo">
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Nome do Banco">
+            <input matInput placeholder="Nome do Banco" 
+            [(ngModel)]="product.nome" name="name">
         </mat-form-field>
     </form>
     <button mat-raised-button (click)="createProduct()" color="primary">
