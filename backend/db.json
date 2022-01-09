@@ -1,0 +1,19 @@
+{
+  "bancos": [
+    {
+      "id": 1,
+      "name": "Banco do Brasil SA",
+      "codigo": "1"
+    },
+    {
+      "id": 2,
+      "name": "Banco da Amazonia S.A.",
+      "codigo": "3"
+    },
+    {
+      "id": 3,
+      "name": "Banco do Nordeste do Brasil S.A.",
+      "codigo": "4"
+    }
+  ]
+}
